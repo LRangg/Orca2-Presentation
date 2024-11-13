@@ -144,10 +144,12 @@ Orca 2 is designed with built-in safety measures to generate ethical, responsibl
 	•	High Performance: Matches or surpasses larger models on reasoning, grounding, and summarization tasks.
 	•	Ethical Output: Cautious system instructions contribute to ethical, grounded responses.
 	•	Accessibility: Small model size (7B and 13B) makes it feasible for applications with limited computational resources.
+ 	•	Publicly Available Weights: Orca 2’s open-source nature allows researchers and developers to experiment with and fine-tune the model for specific use cases.
 
 ### Limitations
 
 	•	No RLHF: Reinforcement Learning from Human Feedback (RLHF) could further improve ethical alignment and reduce biases.
+	•	Reliance on Teacher Model Quality: The success of Orca 2’s training depends heavily on the quality of reasoning provided by the teacher model (e.g., GPT-4). Any flaws or biases in the teacher’s outputs could be propagated to the student model.
 	•	Multi-Turn Conversations: While effective, Orca 2 could benefit from enhanced prompt engineering to sustain conversation flow across turns.
 
 ## Implications and Future Directions

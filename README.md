@@ -52,13 +52,17 @@ Orca 2 uses two main techniques to develop its reasoning abilities:
 1. Explanation Tuning
 
 	•	Purpose: Trains Orca 2 to generate responses that involve structured, detailed reasoning rather than short, direct answers.
+
 	•	Method: Uses a teacher model (e.g., GPT-4) to demonstrate various reasoning processes through step-by-step or explanatory answers.
+
 	•	Outcome: The student model (Orca 2) learns to emulate complex reasoning paths, improving generalization across reasoning-intensive tasks.
 
-2. Prompt Erasure
+3. Prompt Erasure
 
 	•	Purpose: Encourages the model to develop independent thinking by removing direct prompts from the teacher during training.
+
 	•	Method: Orca 2 learns without visibility into the original prompts used to elicit responses from the teacher, fostering task-specific strategic selection.
+
 	•	Outcome: This results in a “Cautious Reasoner” that independently applies different problem-solving strategies and considers ethical implications when generating responses.
 
 ![Prompt Erasure](figures/generic_prompt.png)

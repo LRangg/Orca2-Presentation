@@ -4,16 +4,16 @@ This README provides a comprehensive overview of Orca 2, a small language model 
 
 ## Contents
 
-	•	[Overview](#overview)
-	•	[Objectives](#objectives)
-	•	[Key Techniques](#key-techniques)
-	•	[Training Approach](#training-approach)
-	•	[Evaluation and Performance](#evaluation-and-performance)
-	•	[Safety and Truthfulness](#safety-and-truthfulness)
-	•	[Strengths and Limitations](#strengths-and-limitations)
-	•	[Implications and Future Directions](#implications-and-future-directions)
-	•	[Questions](#questions)
-	•	[Citation](#citation)
+-[Overview](#overview)
+-[Objectives](#objectives)
+-[Key Techniques](#key-techniques)
+-[Training Approach](#training-approach)
+-[Evaluation and Performance](#evaluation-and-performance)
+-[Safety and Truthfulness](#safety-and-truthfulness)
+-[Strengths and Limitations](#strengths-and-limitations)
+-[Implications and Future Directions](#implications-and-future-directions)
+-[Questions](#questions)
+-[Citation](#citation)
 
 ## Overview
 

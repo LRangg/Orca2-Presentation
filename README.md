@@ -53,9 +53,11 @@ Orca 2 uses two main techniques to develop its reasoning abilities:
 
 	•	Purpose: Trains Orca 2 to generate responses that involve structured, detailed reasoning rather than short, direct answers.
 
-	•	Method: Uses a teacher model (e.g., GPT-4) to demonstrate various reasoning processes through step-by-step or explanatory answers.
+	•	Method: Uses a teacher model (e.g., GPT-4) to demonstrate various reasoning processes through step-by-step or explanatory answers. 
 
 	•	Outcome: The student model (Orca 2) learns to emulate complex reasoning paths, improving generalization across reasoning-intensive tasks.
+
+![Explanation Tuning](figures/explanation.png)
 
 3. Prompt Erasure
 
